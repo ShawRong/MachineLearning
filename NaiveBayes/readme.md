@@ -1,9 +1,3 @@
-MNIST文件中包括了MNIST PNG形式文件的读取，KNN，以及MAIN函数。
-过程中对PNG文件进行了二值化处理后，每个图片保存为了一维向量的形式。
-
-MINSTPNG文件包括了对原本的MNIST数据集整合为PNG图片的的过程。lable包括在了图片的名称中。
-
-这次测试KNN只使用了MINST数据集train的部分文件，划分出测试集和训练集。
-
-在运行MNIST前，先使用MNISTPNG将ubyte文件转换为png文件，对应保存的文件夹已经建立，不能空缺。
-在使用前在当前目录下建立 test_image test_lable train_image train_lable四个文件夹
+MultinomialNB_SKlearn是使用sklearn来实现的代码
+NB是自己编写的代码来实现的
+dataset文件夹里保存的是数据集
